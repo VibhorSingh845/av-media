@@ -23,10 +23,10 @@ ORDER: Base + typography > general layout + grid > page layout > components
   display: table; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
-    @media only screen and (max-width: 100vh) {
+    @media only screen and (max-width: 56.25em) {
       .row:not(:last-child) {
         margin-bottom: 6rem; } }
-  @media only screen and (max-width: 100vh) {
+  @media only screen and (max-width: 56.25em) {
     .row {
       max-width: 50rem;
       padding: 0 3rem; } }
@@ -34,11 +34,11 @@ ORDER: Base + typography > general layout + grid > page layout > components
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
-      @media only screen and (max-width: 100vh) {
+      @media only screen and (max-width: 56.25em) {
         .row [class^="col-"]:not(:last-child) {
           margin-right: 0;
           margin-bottom: 6rem; } }
-    @media only screen and (max-width: 100vh) {
+    @media only screen and (max-width: 56.25em) {
       .row [class^="col-"] {
         width: 100% !important; } }
   .row .col-1-of-2 {
@@ -56,13 +56,13 @@ html {
   /* default px size is 16px so 100% would mean 16px  */
   /* so 10 / 16 = 0.625 hence we use 62.5% bcz it will mean 10px */
   font-size: 62.5%; }
-  @media only screen and (max-width: 100vh) {
+  @media only screen and (max-width: 75em) {
     html {
       font-size: 56.25%; } }
-  @media only screen and (max-width: 100vh) {
+  @media only screen and (max-width: 56.25em) {
     html {
       font-size: 50%; } }
-  @media only screen and (max-width: 100vh) {
+  @media only screen and (max-width: 37.5em) {
     html {
       font-size: 50%; } }
   @media only screen and (min-width: 112.5em) {
@@ -75,13 +75,13 @@ body {
   background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
   background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   color: #FFFFFF; }
-  @media only screen and (max-width: 100vh) {
+  @media only screen and (max-width: 37.5em) {
     body {
       padding: 0; } }
 
-@media only screen and (max-width: 100vh) {
+@media only screen and (max-width: 37.5em) {
   .wave-home {
-    width: 100%; } }
+    width: 369%; } }
 
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -165,18 +165,25 @@ body {
     .menu-bar li:nth-child(2) {
       position: inherit;
       left: 38%; }
+      @media only screen and (max-width: 37.5em) {
+        .menu-bar li:nth-child(2) {
+          left: 29%; } }
     .menu-bar li:hover {
       color: black; }
       .menu-bar li:hover::before {
         background: linear-gradient(to bottom, #e8edec, #d2d1d3);
         box-shadow: 0px 3px 20px 0px black;
         transform: scale(1.2); }
-  /* @media only screen and (max-width: 100vh) {
+    @media only screen and (max-width: 37.5em) {
+      .menu-bar li {
+        font-size: 12px; } }
+  @media only screen and (max-width: 37.5em) {
     .menu-bar {
-      width: 244%;
+      width: 70%;
       position: absolute;
-      left: 232px;
-      top: 72px; } } */
+      left: 50px;
+      top: 18px;
+      height: 50px; } }
 
 .link:link, .link:visited {
   text-decoration: none;
@@ -330,12 +337,12 @@ body {
     left: 145px;
     width: 1151px;
     height: 451px; }
-    @media only screen and (max-width: 100vh) {
+    @media only screen and (max-width: 37.5em) {
       .card-3-au {
         width: 80%;
         height: 50%;
         position: absolute;
-        left: 14px;
+        left: 33px;
         top: 1912px; } }
 
 .card-3::before {
@@ -589,7 +596,7 @@ body {
   left: 92px;
   width: 420px;
   height: 124px; }
-  @media only screen and (max-width: 100vh) {
+  @media only screen and (max-width: 37.5em) {
     .text-box-6-au {
       position: absolute;
       top: 11px;
@@ -598,7 +605,7 @@ body {
 
 .heading-of-box-6 {
   font-size: 48px; }
-  @media only screen and (max-width: 100vh) {
+  @media only screen and (max-width: 37.5em) {
     .heading-of-box-6-au {
       font-size: 24px; } }
 
@@ -608,7 +615,7 @@ body {
   left: 92px;
   width: 438px;
   height: 54px; }
-  @media only screen and (max-width: 100vh) {
+  @media only screen and (max-width: 37.5em) {
     .mini-text-box-6-au {
       position: absolute;
       top: 142px;
@@ -617,7 +624,7 @@ body {
 
 .paragraph-of-box-6 {
   font-size: 20px; }
-  @media only screen and (max-width: 100vh) {
+  @media only screen and (max-width: 37.5em) {
     .paragraph-of-box-6-au {
       font-size: 10px; } }
 
@@ -627,7 +634,7 @@ body {
   right: 0px;
   width: 544px;
   height: 452px; }
-  @media only screen and (max-width: 100vh) {
+  @media only screen and (max-width: 37.5em) {
     .image-6-au {
       width: 97%;
       height: 57%; } }
@@ -639,9 +646,9 @@ body {
   width: 96%;
   height: 289px;
   border-top: 1px solid #D9D9D9; }
-  /* @media only screen and (max-width: 100vh) {
+  @media only screen and (max-width: 37.5em) {
     .footer {
-      width: 355%; } } */
+      width: 355%; } }
 
 .au-heading-box-1 {
   position: absolute;
@@ -649,15 +656,15 @@ body {
   left: 581px;
   width: 270px;
   height: 62px; }
-  @media only screen and (max-width: 100vh) {
+  @media only screen and (max-width: 37.5em) {
     .au-heading-box-1 {
       position: absolute;
-      left: 117px;
+      left: 133px;
       width: 34%; } }
 
 .au-heading-of-box-1 {
   font-size: 48px; }
-  @media only screen and (max-width: 100vh) {
+  @media only screen and (max-width: 37.5em) {
     .au-heading-of-box-1 {
       font-size: 24px; } }
 
@@ -667,15 +674,15 @@ body {
   left: 471px;
   width: 489px;
   height: 117px; }
-  @media only screen and (max-width: 100vh) {
+  @media only screen and (max-width: 37.5em) {
     .au-paragraph-box-1 {
       position: absolute;
-      left: 45px;
+      left: 65px;
       width: 70%; } }
 
 .au-paragraph-of-box-1 {
   font-size: 20px; }
-  @media only screen and (max-width: 100vh) {
+  @media only screen and (max-width: 37.5em) {
     .au-paragraph-of-box-1 {
       font-size: 10px; } }
 
@@ -685,11 +692,11 @@ body {
   left: 144px;
   width: 1152px;
   height: 510px; }
-  @media only screen and (max-width: 100vh) {
+  @media only screen and (max-width: 37.5em) {
     .au-image-1 {
       width: 80%;
       position: absolute;
-      left: 14px; } }
+      left: 35px; } }
 
 .au-heading-box-2 {
   position: absolute;
@@ -697,16 +704,16 @@ body {
   left: 494.5px;
   width: 451px;
   height: 62px; }
-  @media only screen and (max-width: 100vh) {
+  @media only screen and (max-width: 37.5em) {
     .au-heading-box-2 {
       position: absolute;
-      left: 103px;
+      left: 115px;
       width: 34%; } }
 
 .au-heading-of-box-2 {
   font-size: 48px;
   text-align: center; }
-  @media only screen and (max-width: 100vh) {
+  @media only screen and (max-width: 37.5em) {
     .au-heading-of-box-2 {
       font-size: 24px; } }
 
@@ -716,15 +723,15 @@ body {
   left: 339px;
   width: 761px;
   height: 130px; }
-  @media only screen and (max-width: 100vh) {
+  @media only screen and (max-width: 37.5em) {
     .au-paragraph-box-2 {
       position: absolute;
-      left: 27px;
+      left: 46px;
       width: 74%; } }
 
 .au-paragraph-of-box-2 {
   font-size: 20px; }
-  @media only screen and (max-width: 100vh) {
+  @media only screen and (max-width: 37.5em) {
     .au-paragraph-of-box-2 {
       font-size: 10px; } }
 
@@ -735,9 +742,9 @@ body {
   width: 770px;
   height: 2px;
   background-color: #D9D9D9; }
-  @media only screen and (max-width: 100vh) {
+  @media only screen and (max-width: 37.5em) {
     .au-line {
-      width: 70%;
+      width: 84%;
       position: absolute;
       left: 34px; } }
 
@@ -747,17 +754,17 @@ body {
   left: 261px;
   width: 288px;
   height: 310px; }
-  @media only screen and (max-width: 100vh) {
+  @media only screen and (max-width: 37.5em) {
     .au-heading-box-3 {
       position: absolute;
       top: 1306px;
-      left: 113px;
+      left: 133px;
       width: 36%;
       height: auto; } }
 
 .au-heading-of-box-3 {
   font-size: 48px; }
-  @media only screen and (max-width: 100vh) {
+  @media only screen and (max-width: 37.5em) {
     .au-heading-of-box-3 {
       font-size: 24px; } }
 
@@ -767,13 +774,13 @@ body {
   left: 675px;
   width: 581px;
   height: 709px; }
-  @media only screen and (max-width: 100vh) {
+  @media only screen and (max-width: 37.5em) {
     .au-image-2 {
       width: 68%;
       height: 39%;
       position: absolute;
       top: 1471px;
-      left: 36px; } }
+      left: 58px; } }
 
 .au-footer {
   position: absolute;
@@ -782,20 +789,30 @@ body {
   width: 96%;
   height: 289px;
   border-top: 1px solid #D9D9D9; }
-  @media only screen and (max-width: 100vh) {
+  @media only screen and (max-width: 37.5em) {
     .au-footer {
       position: absolute;
       top: 2490px;
-      width: 74%; } }
+      width: 86%; } }
 
 .form {
   width: 100%;
   display: flex;
   justify-content: center; }
+  @media only screen and (max-width: 37.5em) {
+    .form {
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      margin-top: 25px; } }
 
 .cu-image-1 {
   width: 52%;
   height: 657px; }
+  @media only screen and (max-width: 37.5em) {
+    .cu-image-1 {
+      width: 52%;
+      height: 210px; } }
 
 .cu-img {
   position: inherit;
@@ -820,10 +837,21 @@ body {
     font-size: 48px; }
   .form-box-discription {
     font-size: 20px; }
+    @media only screen and (max-width: 37.5em) {
+      .form-box-discription {
+        width: 226%; } }
   .form-box-2 {
     margin-top: 28px;
     height: 52%;
     width: 70%; }
+    @media only screen and (max-width: 37.5em) {
+      .form-box-2 {
+        height: 50%;
+        width: 136%; } }
+  @media only screen and (max-width: 37.5em) {
+    .form-box {
+      margin-top: 10px;
+      margin-left: -44px; } }
 
 .form-content {
   height: 100%;
@@ -863,3 +891,16 @@ body {
     opacity: 0;
     visibility: hidden;
     transform: translateY(-4rem); }
+
+.cu-footer {
+  position: absolute;
+  top: 1250px;
+  left: 27px;
+  width: 96%;
+  height: 289px;
+  border-top: 1px solid #D9D9D9; }
+  @media only screen and (max-width: 37.5em) {
+    .cu-footer {
+      position: absolute;
+      top: 960px;
+      width: 86%; } }
