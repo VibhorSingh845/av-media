@@ -515,8 +515,8 @@ body {
   position: absolute;
   top: 2004px;
   left: 888px;
-  width: 341px;
-  height: 84px; }
+  width: 375px;
+  height: 121px; }
   @media only screen and (max-width: 37.5em) {
     .text-box-3 {
       position: absolute;
@@ -533,7 +533,7 @@ body {
 
 .mini-text-box-3 {
   position: absolute;
-  top: 2126px;
+  top: 2145px;
   left: 888px;
   width: 341px;
   height: 88px; }
