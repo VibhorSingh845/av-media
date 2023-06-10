@@ -629,7 +629,8 @@ body {
       top: 2341px;
       left: 33px;
       width: 80%;
-      height: 368px; } }
+      height: 368px;
+      display: block; } }
 
 .text-box-5 {
   position: absolute;
