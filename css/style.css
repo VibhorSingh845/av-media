@@ -198,6 +198,13 @@ body {
   left: 141px;
   width: 489px;
   height: 256px; }
+  @media only screen and (max-width: 37.5em) {
+    .text-box-1 {
+      position: absolute;
+      top: 195px;
+      left: 71px;
+      width: 80%;
+      height: auto; } }
 
 .mini-text-box-1 {
   position: absolute;
@@ -205,12 +212,25 @@ body {
   left: 144px;
   width: 542px;
   height: 26px; }
+  @media only screen and (max-width: 37.5em) {
+    .mini-text-box-1 {
+      position: absolute;
+      top: 309px;
+      left: 45px;
+      width: 80%;
+      height: auto; } }
 
 .heading {
   font-size: 71px; }
+  @media only screen and (max-width: 37.5em) {
+    .heading {
+      font-size: 35px; } }
 
 .paragraph {
   font-size: 20px; }
+  @media only screen and (max-width: 37.5em) {
+    .paragraph {
+      font-size: 10px; } }
 
 .image-1 {
   position: absolute;
@@ -218,6 +238,13 @@ body {
   left: 693px;
   width: 727px;
   height: 595px; }
+  @media only screen and (max-width: 37.5em) {
+    .image-1 {
+      position: absolute;
+      top: 323px;
+      left: 27px;
+      width: 90%;
+      height: 37%; } }
 
 .img {
   position: absolute;
@@ -225,46 +252,6 @@ body {
   left: 0;
   width: 100%;
   height: 100%; }
-
-.card-up {
-  background-color: #FFFFFF;
-  border-radius: 16px;
-  position: absolute;
-  top: 1158px;
-  left: 145px;
-  width: 1150px;
-  height: 478px;
-  box-shadow: 0 4px 32px #FFFFFF; }
-  .card-up-1 {
-    background-color: #FFFFFF;
-    border-radius: 16px;
-    position: absolute;
-    top: 3317px;
-    left: 146px;
-    width: 1150px;
-    height: 718px;
-    box-shadow: 0 4px 32px; }
-
-.card-down {
-  background-color: #f2f2f2;
-  border-radius: 16px;
-  position: absolute;
-  top: 1189px;
-  left: 169px;
-  width: 1103px;
-  height: 466px;
-  box-shadow: 0 4px 24px;
-  z-index: -10; }
-  .card-down-1 {
-    background-color: #f2f2f2;
-    border-radius: 16px;
-    position: absolute;
-    top: 3587px;
-    left: 170px;
-    width: 1103px;
-    height: 466px;
-    box-shadow: 0 4px 24px;
-    z-index: -10; }
 
 .card {
   position: absolute;
@@ -277,6 +264,13 @@ body {
   font-size: 1.5em;
   cursor: pointer;
   font-family: cursive; }
+  @media only screen and (max-width: 37.5em) {
+    .card {
+      width: 80%;
+      height: 50%;
+      position: absolute;
+      left: 33px;
+      top: 759px; } }
 
 .card::before {
   content: "";
@@ -301,6 +295,13 @@ body {
   font-size: 1.5em;
   cursor: pointer;
   font-family: cursive; }
+  @media only screen and (max-width: 37.5em) {
+    .card-2 {
+      position: absolute;
+      top: 2575px;
+      left: 35px;
+      width: 80%;
+      height: 70%; } }
 
 .card-2::before {
   content: "";
@@ -331,6 +332,13 @@ body {
   font-size: 1.5em;
   cursor: pointer;
   font-family: cursive; }
+  @media only screen and (max-width: 37.5em) {
+    .card-3 {
+      width: 81%;
+      height: 56%;
+      position: absolute;
+      left: 33px;
+      top: 3339px; } }
   .card-3-au {
     position: absolute;
     top: 2217px;
@@ -343,7 +351,7 @@ body {
         height: 50%;
         position: absolute;
         left: 33px;
-        top: 1912px; } }
+        top: 1711px; } }
 
 .card-3::before {
   content: "";
@@ -369,10 +377,20 @@ body {
   left: 60px;
   width: 615px;
   height: 137px; }
+  @media only screen and (max-width: 37.5em) {
+    .text-box-2 {
+      position: absolute;
+      top: 16px;
+      left: 84px;
+      width: auto;
+      height: auto; } }
 
 .heading-of-box-2 {
   font-size: 48px;
   text-align: left; }
+  @media only screen and (max-width: 37.5em) {
+    .heading-of-box-2 {
+      font-size: 24px; } }
 
 .mini-text-box-2 {
   position: absolute;
@@ -380,9 +398,19 @@ body {
   left: 60px;
   width: 381px;
   height: 63px; }
+  @media only screen and (max-width: 37.5em) {
+    .mini-text-box-2 {
+      position: absolute;
+      top: 103px;
+      left: 25px;
+      width: auto;
+      height: auto; } }
 
 .paragraph-of-box-2 {
   font-size: 20px; }
+  @media only screen and (max-width: 37.5em) {
+    .paragraph-of-box-2 {
+      font-size: 10px; } }
 
 .image-2 {
   position: absolute;
@@ -390,6 +418,13 @@ body {
   left: 629px;
   width: 811px;
   height: 672px; }
+  @media only screen and (max-width: 37.5em) {
+    .image-2 {
+      position: absolute;
+      left: 78px;
+      top: 972px;
+      width: 60%;
+      height: auto; } }
 
 .photos {
   width: 48%;
@@ -399,14 +434,26 @@ body {
   outline-offset: 2rem;
   transition: all .2s; }
   .photos--pt1 {
-    left: 0;
-    top: -1rem; }
+    left: 54px;
+    top: 12rem; }
+    @media only screen and (max-width: 37.5em) {
+      .photos--pt1 {
+        left: -16px;
+        top: 1rem; } }
   .photos--pt2 {
     right: 0;
     top: 9rem; }
+    @media only screen and (max-width: 37.5em) {
+      .photos--pt2 {
+        right: -3px;
+        top: 1rem; } }
   .photos--pt3 {
-    left: 18%;
-    top: 36rem; }
+    left: 14%;
+    top: 33rem; }
+    @media only screen and (max-width: 37.5em) {
+      .photos--pt3 {
+        left: -6%;
+        top: 11rem; } }
   .photos:hover {
     outline: 1.5rem solid #55c57a;
     transform: scale(1.05);
@@ -422,6 +469,13 @@ body {
   left: 149px;
   width: 672px;
   height: 517px; }
+  @media only screen and (max-width: 37.5em) {
+    .image-3 {
+      position: absolute;
+      top: 1311px;
+      left: 43px;
+      width: 80%;
+      height: 252px; } }
 
 .insight {
   width: 48%;
@@ -443,11 +497,21 @@ body {
   left: 888px;
   width: 189px;
   height: 19px; }
+  @media only screen and (max-width: 37.5em) {
+    .small-heading-box-1 {
+      position: absolute;
+      top: 1651px;
+      left: 49px;
+      width: auto;
+      height: auto; } }
 
 .small-heading {
   font-size: 13px;
   letter-spacing: 2px;
   color: #7f7f7f; }
+  @media only screen and (max-width: 37.5em) {
+    .small-heading {
+      font-size: 7.5px; } }
 
 .text-box-3 {
   position: absolute;
@@ -455,9 +519,19 @@ body {
   left: 888px;
   width: 341px;
   height: 84px; }
+  @media only screen and (max-width: 37.5em) {
+    .text-box-3 {
+      position: absolute;
+      top: 1681px;
+      left: 49px;
+      width: 80%;
+      height: auto; } }
 
 .heading-of-box-3 {
   font-size: 32px; }
+  @media only screen and (max-width: 37.5em) {
+    .heading-of-box-3 {
+      font-size: 16px; } }
 
 .mini-text-box-3 {
   position: absolute;
@@ -465,9 +539,19 @@ body {
   left: 888px;
   width: 341px;
   height: 88px; }
+  @media only screen and (max-width: 37.5em) {
+    .mini-text-box-3 {
+      position: absolute;
+      top: 1736px;
+      left: 48px;
+      width: 75%;
+      height: auto; } }
 
 .paragraph-of-box-3 {
   font-size: 16px; }
+  @media only screen and (max-width: 37.5em) {
+    .paragraph-of-box-3 {
+      font-size: 8px; } }
 
 .small-heading-box-2 {
   position: absolute;
@@ -475,6 +559,13 @@ body {
   left: 146px;
   width: 189px;
   height: 19px; }
+  @media only screen and (max-width: 37.5em) {
+    .small-heading-box-2 {
+      position: absolute;
+      top: 1929px;
+      left: 49px;
+      width: auto;
+      height: auto; } }
 
 .text-box-4 {
   position: absolute;
@@ -482,6 +573,13 @@ body {
   left: 146px;
   width: 341px;
   height: 84px; }
+  @media only screen and (max-width: 37.5em) {
+    .text-box-4 {
+      position: absolute;
+      top: 1957px;
+      left: 49px;
+      width: 80%;
+      height: auto; } }
 
 .mini-text-box-4 {
   position: absolute;
@@ -489,6 +587,13 @@ body {
   left: 145px;
   width: 483px;
   height: 88px; }
+  @media only screen and (max-width: 37.5em) {
+    .mini-text-box-4 {
+      position: absolute;
+      top: 1995px;
+      left: 49px;
+      width: 80%;
+      height: auto; } }
 
 .image-4 {
   position: absolute;
@@ -496,6 +601,13 @@ body {
   left: 706px;
   width: 648px;
   height: 460px; }
+  @media only screen and (max-width: 37.5em) {
+    .image-4 {
+      position: absolute;
+      top: 2071px;
+      left: 36px;
+      width: 80%;
+      height: 218px; } }
 
 .image-5 {
   position: absolute;
@@ -508,6 +620,16 @@ body {
     position: relative;
     left: 0;
     top: 1rem; }
+    @media only screen and (max-width: 37.5em) {
+      .image-5--all_logo {
+        width: 100%; } }
+  @media only screen and (max-width: 37.5em) {
+    .image-5 {
+      position: absolute;
+      top: 2341px;
+      left: 33px;
+      width: 80%;
+      height: 368px; } }
 
 .text-box-5 {
   position: absolute;
@@ -515,9 +637,19 @@ body {
   left: 92px;
   width: 388px;
   height: 124px; }
+  @media only screen and (max-width: 37.5em) {
+    .text-box-5 {
+      position: absolute;
+      top: 116px;
+      left: 26px;
+      width: 97%;
+      height: auto; } }
 
 .heading-of-box-5 {
   font-size: 48px; }
+  @media only screen and (max-width: 37.5em) {
+    .heading-of-box-5 {
+      font-size: 24px; } }
 
 .mini-text-box-5 {
   position: absolute;
@@ -525,9 +657,19 @@ body {
   left: 92px;
   width: 484px;
   height: 120px; }
+  @media only screen and (max-width: 37.5em) {
+    .mini-text-box-5 {
+      position: absolute;
+      top: 190px;
+      left: 23px;
+      width: 91%;
+      height: auto; } }
 
 .paragraph-of-box-5 {
   font-size: 20px; }
+  @media only screen and (max-width: 37.5em) {
+    .paragraph-of-box-5 {
+      font-size: 10px; } }
 
 .line-1 {
   position: absolute;
@@ -536,6 +678,12 @@ body {
   width: 384px;
   height: 2px;
   background-color: #D9D9D9; }
+  @media only screen and (max-width: 37.5em) {
+    .line-1 {
+      position: absolute;
+      top: 399px;
+      left: 19px;
+      width: 87%; } }
 
 .line-2 {
   position: absolute;
@@ -544,12 +692,24 @@ body {
   width: 384px;
   height: 2px;
   background-color: #D9D9D9; }
+  @media only screen and (max-width: 37.5em) {
+    .line-2 {
+      position: absolute;
+      top: 483px;
+      left: 19px;
+      width: 87%; } }
 
 .step {
   font-size: 32px; }
+  @media only screen and (max-width: 37.5em) {
+    .step {
+      font-size: 16px; } }
 
 .content {
   font-size: 16px; }
+  @media only screen and (max-width: 37.5em) {
+    .content {
+      font-size: 8px; } }
 
 .step-1 {
   position: absolute;
@@ -557,12 +717,23 @@ body {
   right: 294px;
   width: 120px;
   height: 42px; }
+  @media only screen and (max-width: 37.5em) {
+    .step-1 {
+      position: absolute;
+      top: 323px;
+      left: 27px; } }
 
 .step-1-content {
   position: absolute;
   top: 91px;
   right: 134px;
   width: 280px; }
+  @media only screen and (max-width: 37.5em) {
+    .step-1-content {
+      position: absolute;
+      top: 350px;
+      left: 27px;
+      width: 267px; } }
 
 .step-2 {
   position: absolute;
@@ -570,12 +741,23 @@ body {
   right: 294px;
   width: 120px;
   height: 42px; }
+  @media only screen and (max-width: 37.5em) {
+    .step-2 {
+      position: absolute;
+      top: 415px;
+      left: 27px; } }
 
 .step-2-content {
   position: absolute;
   top: 326px;
   right: 134px;
   width: 280px; }
+  @media only screen and (max-width: 37.5em) {
+    .step-2-content {
+      position: absolute;
+      top: 444px;
+      left: 27px;
+      width: 267px; } }
 
 .step-3 {
   position: absolute;
@@ -583,12 +765,23 @@ body {
   right: 294px;
   width: 120px;
   height: 42px; }
+  @media only screen and (max-width: 37.5em) {
+    .step-3 {
+      position: absolute;
+      top: 496px;
+      left: 27px; } }
 
 .step-3-content {
   position: absolute;
   top: 550px;
   right: 134px;
   width: 280px; }
+  @media only screen and (max-width: 37.5em) {
+    .step-3-content {
+      position: absolute;
+      top: 529px;
+      left: 27px;
+      width: 267px; } }
 
 .text-box-6 {
   position: absolute;
@@ -597,16 +790,16 @@ body {
   width: 420px;
   height: 124px; }
   @media only screen and (max-width: 37.5em) {
-    .text-box-6-au {
+    .text-box-6 {
       position: absolute;
-      top: 11px;
+      top: 23px;
       left: 51px;
       width: 168px; } }
 
 .heading-of-box-6 {
   font-size: 48px; }
   @media only screen and (max-width: 37.5em) {
-    .heading-of-box-6-au {
+    .heading-of-box-6 {
       font-size: 24px; } }
 
 .mini-text-box-6 {
@@ -616,7 +809,7 @@ body {
   width: 438px;
   height: 54px; }
   @media only screen and (max-width: 37.5em) {
-    .mini-text-box-6-au {
+    .mini-text-box-6 {
       position: absolute;
       top: 142px;
       left: 51px;
@@ -625,17 +818,17 @@ body {
 .paragraph-of-box-6 {
   font-size: 20px; }
   @media only screen and (max-width: 37.5em) {
-    .paragraph-of-box-6-au {
+    .paragraph-of-box-6 {
       font-size: 10px; } }
 
 .image-6 {
   position: absolute;
-  bottom: 0px;
-  right: 0px;
-  width: 544px;
+  bottom: 2px;
+  right: 3px;
+  width: 608px;
   height: 452px; }
   @media only screen and (max-width: 37.5em) {
-    .image-6-au {
+    .image-6 {
       width: 97%;
       height: 57%; } }
 
@@ -648,7 +841,10 @@ body {
   border-top: 1px solid #D9D9D9; }
   @media only screen and (max-width: 37.5em) {
     .footer {
-      width: 355%; } }
+      position: absolute;
+      top: 4055px;
+      left: 10px;
+      width: 95%; } }
 
 .au-heading-box-1 {
   position: absolute;
@@ -688,15 +884,16 @@ body {
 
 .au-image-1 {
   position: absolute;
-  top: 459px;
-  left: 144px;
+  top: 450px;
+  left: 181px;
   width: 1152px;
   height: 510px; }
   @media only screen and (max-width: 37.5em) {
     .au-image-1 {
       width: 80%;
       position: absolute;
-      left: 35px; } }
+      left: 35px;
+      height: 28%; } }
 
 .au-heading-box-2 {
   position: absolute;
@@ -708,6 +905,7 @@ body {
     .au-heading-box-2 {
       position: absolute;
       left: 115px;
+      top: 765px;
       width: 34%; } }
 
 .au-heading-of-box-2 {
@@ -727,6 +925,7 @@ body {
     .au-paragraph-box-2 {
       position: absolute;
       left: 46px;
+      top: 847px;
       width: 74%; } }
 
 .au-paragraph-of-box-2 {
@@ -746,7 +945,8 @@ body {
     .au-line {
       width: 84%;
       position: absolute;
-      left: 34px; } }
+      left: 34px;
+      top: 1027px; } }
 
 .au-heading-box-3 {
   position: absolute;
@@ -757,7 +957,7 @@ body {
   @media only screen and (max-width: 37.5em) {
     .au-heading-box-3 {
       position: absolute;
-      top: 1306px;
+      top: 1105px;
       left: 133px;
       width: 36%;
       height: auto; } }
@@ -779,7 +979,7 @@ body {
       width: 68%;
       height: 39%;
       position: absolute;
-      top: 1471px;
+      top: 1270px;
       left: 58px; } }
 
 .au-footer {
@@ -792,7 +992,7 @@ body {
   @media only screen and (max-width: 37.5em) {
     .au-footer {
       position: absolute;
-      top: 2490px;
+      top: 2289px;
       width: 86%; } }
 
 .form {
