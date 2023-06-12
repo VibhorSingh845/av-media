@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>View Data</title>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+</head>
+<body onload="viewData()">
+  <h1 style="text-align: center;">Data from Firestore</h1>
+  <p id="data"></p>
+  <table id="dataTable" border="1px" style="margin-left: auto; margin-right: auto;">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Message</th>
+        <th>Datetime</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <script src="js/view_data.js"></script>
+</body>
+</html>
